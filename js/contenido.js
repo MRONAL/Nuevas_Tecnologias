@@ -32,7 +32,7 @@ function imprimir() {
 }
 function nuevoTitulo() {
     var contenido = document.getElementById('contenido');
-    var tituloTexto = document.getElementById("tituloTexto").value; // Captura el texto ingresado
+    var tituloTexto = document.getElementById("texto").value; // Captura el texto ingresado
 
     if (tituloTexto.trim() === "") {
         alert("Por favor, ingresa un título.");
@@ -45,7 +45,7 @@ function nuevoTitulo() {
 }
 function nuevoEnlace() {
     var contenido = document.getElementById('contenido');
-    var textoEnlace = document.getElementById("enlaceTexto").value;
+    var textoEnlace = document.getElementById("texto").value;
     var urlEnlace = document.getElementById("enlaceURL").value;
 
     if (textoEnlace.trim() === "" || urlEnlace.trim() === "") {
